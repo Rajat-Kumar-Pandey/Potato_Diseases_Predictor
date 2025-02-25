@@ -1,0 +1,17 @@
+# Ignore model files and checkpoints
+models/
+training/.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore dataset (if applicable)
+dataset/
+*.csv
+*.json
